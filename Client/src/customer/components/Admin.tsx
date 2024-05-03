@@ -16,7 +16,7 @@ export const Admin = () => {
         //{ name: "Products", path: "/admin/products", icon: <DashboardOutlined /> },
         //{ name: "Customers", path: "/admin/customers", icon: <DashboardOutlined /> },
         //{ name: "Orders", path: "/admin/orders", icon: <DashboardOutlined /> },
-        { name: "Add products", path: "/admin/product/create", icon: <DashboardOutlined sx={{color:"white"}} /> },
+        { name: "Add products", path: "/admin/product/create", icon: <DashboardOutlined/> },
     ]
     const theme = useTheme()
     const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"))
@@ -41,7 +41,7 @@ export const Admin = () => {
                                 <ListItemIcon>
                                     {item.icon}
                                 </ListItemIcon>
-                                <ListItemText sx={{color:"white"}}>{item.name}</ListItemText>
+                                <ListItemText>{item.name}</ListItemText>
                             </ListItemButton>
                         </ListItem>
                     ))}
@@ -51,9 +51,9 @@ export const Admin = () => {
                 <ListItem disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <AccountCircle sx={{color:"white"}} />
+                            <AccountCircle/>
                         </ListItemIcon>
-                        <ListItemText sx={{color:"white"}} onClick={() => navigate("/")}>Account</ListItemText>
+                        <ListItemText onClick={() => navigate("/")}>Account</ListItemText>
                     </ListItemButton>
                 </ListItem>
             </List>
@@ -61,7 +61,7 @@ export const Admin = () => {
     )
 
     return (<>
-        <div className="flex h-full border border-black relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+        <div>
             <CssBaseline />
             <div className="border border-r-gray-300 h-full"></div>
             <Drawer

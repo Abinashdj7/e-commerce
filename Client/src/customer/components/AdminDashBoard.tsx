@@ -6,7 +6,7 @@ import NewsLetterSubscription from "./NewLetterSubscription"
 
 
 export const AdminDashBoard=() => {
-    return(<div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+    return(<div>
     <Grid container spacing={2}>
             <NewsLetterSubscription/>
         {/*

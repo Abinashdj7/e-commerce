@@ -23,7 +23,7 @@ export const Admin = () => {
     const [sideBarVisible, setSideBarVisible] = useState(false)
     const navigate = useNavigate()
     const drawer = (
-        <Box className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32"
+        <Box
             sx={{
                 overflow: "auto",
                 display: "flex",

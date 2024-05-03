@@ -1,0 +1,22 @@
+export const MainCarouselData=[
+    {
+        image:"https://images4.alphacoders.com/236/236764.jpg",
+        path:"/image_1",
+    },
+    {
+        image:"https://mensflair.com/wp-content/uploads/2023/07/best-quality-clothing-brands.jpg",
+        path:"/image_2"
+    },
+    {
+        image:"https://mensflair.com/wp-content/uploads/2022/04/BiggestFashionTrendsmain2.jpg",
+        path:"/image_3"
+    },
+    {
+        image:"https://www.essence.com/wp-content/uploads/2024/03/mea-culpa-costume-design.png",
+        path:"/image_4"
+    },
+    {
+        image:"https://www.desktopbackground.org/download/o/2011/01/16/142727_men-fashion-hd-wallpapers_1920x1080_h.jpg",
+        path:"/image_5"
+    },
+]
